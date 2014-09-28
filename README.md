@@ -12,4 +12,4 @@ The Cresco-VM provides a quickstart enviorment for working with Cresco.
 
 1. Download the [Cresco-VM VMDK Image](http://128.163.2.80/Cresco-VM.vmdk.gz) and uncompress it on your computer.
 2. Using [VirtualBox](https://www.virtualbox.org) or [VMware Fusion](http://www.vmware.com/products/fusion) boot the VM.
-3. Login to Cresco-VM with **username=**_cresco_
+3. Login to Cresco-VM with **username=**_cresco_ and **password=**_u$cresco01_
