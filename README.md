@@ -3,7 +3,7 @@ Cresco
 
 Cresco Framework
 
-[Read the Wiki for details](https://github.com/ResearchWorx/Cresco/wiki)
+[Read Me First](https://github.com/ResearchWorx/Cresco/wiki)
 
 ### Quickstart VM
 The Cresco-VM provides a quickstart enviorment for working with Cresco.
