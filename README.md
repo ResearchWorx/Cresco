@@ -23,7 +23,7 @@ This topology allows for distributed control, meaning that an agent controls its
 #### [Getting Started](getting-started)
 Getting started with Cresco is fairly simple, with steps as follows:
  1. Download/update/confirm a [Java Runtime Environment](http://www.oracle.com/technetwork/java/javase/overview/index.html) (JRE, Java Runtime) 1.7 or greater.
- 2. Download the [latest agent build](http://128.163.188.129:9998/job/Cresco-Agent/lastSuccessfulBuild/com.researchworx.cresco$cresco-agent/) and [latest controller plugin build](http://128.163.188.129:9998/job/Cresco-Agent-Controller-Plugin/lastStableBuild/com.researchworx.cresco$cresco-agent-controller-plugin/)
+ 2. Download the [latest agent build](http://128.163.188.129:9998/job/Cresco-Agent/lastSuccessfulBuild/com.researchworx.cresco$cresco-agent/) and [latest agent-controller plugin build](http://128.163.188.129:9998/job/Cresco-Agent-Controller-Plugin/lastStableBuild/com.researchworx.cresco$cresco-agent-controller-plugin/)
  3. Modify the configuration files for the agent and plugins (please refer to the wiki for configuration information)
  4. Run the agent with `java jar cresco-agent-<version>.jar -f <agent configuration file>`
 
