@@ -27,7 +27,7 @@ Getting started with Cresco is fairly simple, with steps as follows:
  3. Modify the configuration files for the agent and plugins (please refer to the wiki for configuration information)
  4. Run the agent with `java jar cresco-agent-<version>.jar -f <agent configuration file>`
  
-#### Further Reading
+#### [Further Reading](further-reading)
 For a more in-depth explanation of Cresco, you can read the author's [dissertation](http://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1061&context=cs_etds).
 
 #### [Why the name Cresco?](etymology)
