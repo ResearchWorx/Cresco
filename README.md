@@ -26,6 +26,9 @@ Getting started with Cresco is fairly simple, with steps as follows:
  2. Download the [latest agent build](http://128.163.188.129:9998/job/Cresco-Agent/lastSuccessfulBuild/com.researchworx.cresco$cresco-agent/) and [latest agent-controller plugin build](http://128.163.188.129:9998/job/Cresco-Agent-Controller-Plugin/lastStableBuild/com.researchworx.cresco$cresco-agent-controller-plugin/)
  3. Modify the configuration files for the agent and plugins (please refer to the wiki for configuration information)
  4. Run the agent with `java jar cresco-agent-<version>.jar -f <agent configuration file>`
+ 
+#### Further Reading
+For a more in-depth explanation of Cresco, you can read the author's [dissertation](http://uknowledge.uky.edu/cgi/viewcontent.cgi?article=1061&context=cs_etds).
 
 #### [Why the name Cresco?](etymology)
  
