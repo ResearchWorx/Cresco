@@ -3,24 +3,31 @@
 
 Cresco is a free and open source edge computing framework.
 
-#### Cresco Framework Core
+#### [Cresco Framework Core](core)
  * [Cresco-Agent](https://github.com/ResearchWorx/Cresco-Agent): The main runtime which manages the loading of Cresco Plugins and logging.
  * [Cresco-Agent-Controller-Plugin](https://github.com/ResearchWorx/Cresco-Agent-Controller-Plugin): The main communications plugin for the Cresco Framework which establishes channels for message passing between agents in a tiered system. At this time this plugin is **required** for operation.
  
-#### Cresco Framework Optional Plugins
+#### [Cresco Framework Optional Plugins](optional-plugins)
  * [Cresco-SysInfo-Plugin](https://github.com/ResearchWorx/Cresco-SysInfo-Plugin): This plugin provides computational resource utilization for the machine hosting the Cresco Agent as messages sent back to a Global Controller.
  
-#### Cresco Framework Example Plugins
+#### [Cresco Framework Example Plugins](example-plugins)
  * [Cresco-Skeleton-Plugin](https://github.com/ResearchWorx/Cresco-Skeleton-Plugin): This project exists as a basic starting point for building a custom Cresco plugin.
 
-#### Cresco Agent Topology
+#### [Cresco Agent Topology](topology)
 Cresco agents, through their Cresco-Agent-Controller-Plugin, arrange themselves into a hierarchy of a global, with a single controller, regions, each with a single regional controller, and a set of agents inside a region. The following diagram illustrates this hierarchy:
 
 ![](images/CrescoTopology.png)
 
 This topology allows for distributed control, meaning that an agent controls its plugins, a region controls its agents and the global controls the regions over which it is in charge.
 
-#### Why the name Cresco?
+#### [Getting Started](getting-started)
+Getting started with Cresco is fairly simple, with steps as follows:
+ 1. Download/update/confirm a [Java Runtime Environment](http://www.oracle.com/technetwork/java/javase/overview/index.html) (JRE, Java Runtime) 1.7 or greater.
+ * Download the [latest agent build](http://128.163.188.129:9998/job/Cresco-Agent/lastSuccessfulBuild/com.researchworx.cresco$cresco-agent/) and [latest controller plugin build](http://128.163.188.129:9998/job/Cresco-Agent-Controller-Plugin/lastStableBuild/com.researchworx.cresco$cresco-agent-controller-plugin/)
+ * Modify the configuration files for the agent and plugins (please refer to the wiki for configuration information)
+ * Run the agent with `java jar cresco-agent-<version>.jar -f <agent configuration file>`
+
+#### [Why the name Cresco?](etymology)
  
 * Proto-Indo-European *ker ("to grow"). 
 * Old Armenian սերիմ (serim, "be born") and սերեմ (serem, "bring forth")
