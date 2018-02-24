@@ -3,6 +3,8 @@
 
 Cresco is a free and open source edge computing framework.
 
+##### [Quick Start](QuickStart.MD)
+
 #### Cresco Framework Core
  * [Cresco-Agent](https://github.com/ResearchWorx/Cresco-Agent): The main runtime which manages the loading of Cresco Plugins and logging.
  * [Cresco-Agent-Controller-Plugin](https://github.com/ResearchWorx/Cresco-Agent-Controller-Plugin): The main communications plugin for the Cresco Framework which establishes channels for message passing between agents in a tiered system. At this time this plugin is **required** for operation.
