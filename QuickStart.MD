@@ -43,3 +43,6 @@ jarfile=new-plugin.jar <-- Matches the name of the .jar file in the plugins/ dir
 _______________________________________________________________________________________________________________________________
 
 Once the necessary changes have been made, simply re-build and re-run the Docker container to test the new plugin.
+
+An example docker container can be found in the [Quick Start repository](https://hub.docker.com/r/crescoedgecomputing/quickstart/) on Docker Hub
+
